@@ -100,16 +100,73 @@ body{
 .phone-version #home .home-container{
     width: 100%;
     height: 100%;
+    padding-left: 4%;
     padding-top: 80px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }    
 .phone-version #home .home-container .txt-1{
     font-size: 4rem;
-    text-align: center;
+    text-align: flex-start;
     font-family: 'Bebas Neue' ,sans-serif;
     color: #09102d;
 }
 
+.phone-version #home .home-container .txt-2{
+    font-size: 1.6rem;
+    text-align: flex-start;
+    font-family: 'poppins' ,sans-serif;
+    color: #09102d;
+}
+.phone-version #home .home-container .services-txt{
+    height: 40px;
+    overflow: hidden;
+}
+.phone-version #home .home-container .services-txt p{
+    font-size: 1.5rem;
+    text-align: flex-start;
+    font-family: 'poppins' ,sans-serif;
+    color: #09102d;
+    line-height: 50px;
+    text-decoration: underline;
+    font-weight: 700;
+    animation: animate 8s linear infinite;
+}
+@keyframes animate {
+    0%{
+        transform: translateY(-0%);
+    }
+    18%{
+        transform: translateY(-0%);
+    }
+    20%{
+        transform: translateY(-100%);
+    }
+    38%{
+        transform: translateY(-100%);
+    }
+    40%{
+        transform: translateY(-200%);
+    }
+    58%{
+        transform: translateY(-200%);
+    }
+    60%{
+        transform: translateY(-300%);
+    }
+    78%{
+        transform: translateY(-300%);
+    }
+    80%{
+        transform: translateY(-400%);
+    }
+    99%{
+        transform: translateY(-400%);
+    }
+    100%{
+        transform: translateY(-0%);
+    }
+    
+}
