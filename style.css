@@ -14,7 +14,7 @@ body{
     height: 400vh;
     max-width: 1400px;
     min-width: 280px;  
-    background-color: #09102d;
+    background-color: #fff;
 }
 
 
@@ -73,15 +73,17 @@ body{
 .phone-version nav .nav-container .menu-burger span{
     width: 100%;
     height: 2px;
-    background-color: #09102d;
+    background-color: #fff;
 }
 .phone-version nav .nav-container .menu-burger .line1{
     width: 70%;
     align-self: flex-end;
+    background-color: #0097fe;
 }
 .phone-version nav .nav-container .menu-burger .line3{
     width: 70%;
     align-self: flex-start;
+    background-color: #0097fe;
 }
 /* .phone-version nav .nav-container .menu-burger .line2{
     background-color: #ffb001;
@@ -96,7 +98,7 @@ body{
 .phone-version #home{
     height: 100vh;
     width: 100%;
-    background-color: #fff;
+    background-color: #09102d;
     min-height: 600px;
 }    
 .phone-version #home .home-container{
@@ -112,11 +114,11 @@ body{
     font-size: 4rem;
     text-align: flex-start;
     font-family: 'Bebas Neue' ,sans-serif;
-    color: #09102d;
+    color: #fff;
 }
 .phone-version #home .home-container .txt-1 span{
-    -webkit-text-stroke-color: #09102d;
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-width: 1px;
     color: transparent;
     margin-bottom: 30px;
 }
@@ -124,7 +126,7 @@ body{
     font-size: 1.1rem;
     text-align: flex-start;
     font-family: 'poppins' ,sans-serif;
-    color: #09102d;
+    color: #fff;
 }
 .phone-version #home .home-container .services-txt{
     height: 40px;
@@ -188,8 +190,8 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #09102d;
-    color: #fff;
+    background-color: #fff;
+    color: #;
     font-size: 1.2rem;
     text-decoration: none;
     font-family: 'poppins';
