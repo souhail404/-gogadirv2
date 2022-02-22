@@ -42,14 +42,15 @@ body{
     text-decoration: none;
     color: black;
     font-family: 'Poppins' ,sans-serif;
-    font-weight: 400;
+    font-weight: 600;
 }
 .phone-version nav .nav-container .logo a span{
     font-weight: 300;
 }
 .phone-version nav .nav-container .logo a img{
-    width: 20px;
-    margin-right: 8px;
+    width: 22px;
+    margin-right: 6px;
+    transform: translateY(-2px);
 }
 .phone-version nav .nav-container .menu-burger{
     width: 28px;
