@@ -35,7 +35,7 @@ body{
     align-items: center;
     justify-content: space-between;
 }
-.phone-version nav .nav-container .logo a{
+/* .phone-version nav .nav-container .logo a{
     display: flex;
     align-items: center;
     font-size: 1.35rem;
@@ -46,9 +46,9 @@ body{
 }
 .phone-version nav .nav-container .logo a span{
     font-weight: 300;
-}
+} */
 .phone-version nav .nav-container .logo a img{
-    width: 27px;
+    width: 180px;
     margin-right: 8px;
 }
 .phone-version nav .nav-container .menu-burger{
