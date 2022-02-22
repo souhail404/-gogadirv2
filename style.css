@@ -93,7 +93,6 @@ body{
 
 
 .phone-version #home{
-    height: 100vh;
     width: 100%;
     background-color: #fff;
 }    
@@ -101,7 +100,9 @@ body{
     width: 100%;
     height: 100%;
     padding-left: 4%;
-    padding-top: 80px;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -113,9 +114,13 @@ body{
     font-family: 'Bebas Neue' ,sans-serif;
     color: #09102d;
 }
-
+.phone-version #home .home-container .txt-1 span{
+    -webkit-text-stroke-color: #09102d;
+    -webkit-text-stroke-width: 2px;
+    color: transparent;
+}
 .phone-version #home .home-container .txt-2{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     text-align: flex-start;
     font-family: 'poppins' ,sans-serif;
     color: #09102d;
@@ -169,4 +174,23 @@ body{
         transform: translateY(-0%);
     }
     
+}
+.phone-version #home .home-container .call-to-action{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+}
+.phone-version #home .home-container .call-to-action a{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #09102d;
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-family: 'poppins';
+    border-radius: 6px;
 }
